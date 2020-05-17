@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "DC.conformsTo": "0.2.33", 
+    "DC.created": "2019-09-18T13:38:08", 
+    "DC.date": "2019-09-18T13:38:08"
+  }, 
+  "documents": [
+    {
+      "meta": {
+        "DC.conformsTo": "0.2.33", 
+        "DC.source": "NLP1", 
+        "DC.created": "2019-09-18T13:38:08", 
+        "DC.date": "2019-09-18T13:38:08", 
+        "DC.language": "en"
+      }, 
+      "id": 1, 
+      "text": "John loves Mary. She lives in Paris.", 
+      "tokenList": [
+        {
+          "id": 1, 
+          "sentence_id": 1, 
+          "text": "John", 
+          "lemma": "John", 
+          "xpos": "NNP", 
+          "upos": "PROPN", 
+          "entity_iob": "B", 
+          "characterOffsetBegin": 0, 
+          "characterOffsetEnd": 4, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": true, 
+            "NounType": "Prop", 
+            "Number": "Sing", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }, 
+          "shape": "Xxxx", 
+          "entity": "PERSON"
+        }, 
+        {
+          "id": 2, 
+          "sentence_id": 1, 
+          "text": "loves", 
+          "lemma": "love", 
+          "xpos": "VBZ", 
+          "upos": "VERB", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 5, 
+          "characterOffsetEnd": 10, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": true, 
+            "VerbForm": "Fin", 
+            "Tense": "Pres", 
+            "Number": "Sing", 
+            "Person": "3", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }, 
+          "shape": "xxxx"
+        }, 
+        {
+          "id": 3, 
+          "sentence_id": 1, 
+          "text": "Mary", 
+          "lemma": "Mary", 
+          "xpos": "NNP", 
+          "upos": "PROPN", 
+          "entity_iob": "B", 
+          "characterOffsetBegin": 11, 
+          "characterOffsetEnd": 15, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": true, 
+            "NounType": "Prop", 
+            "Number": "Sing", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": false
+          }, 
+          "shape": "Xxxx", 
+          "entity": "PERSON"
+        }, 
+        {
+          "id": 4, 
+          "sentence_id": 1, 
+          "text": ".", 
+          "lemma": ".", 
+          "xpos": ".", 
+          "upos": "PUNCT", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 15, 
+          "characterOffsetEnd": 16, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": false, 
+            "PunctType": "Peri", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }
+        }, 
+        {
+          "id": 5, 
+          "sentence_id": 2, 
+          "text": "She", 
+          "lemma": "-PRON-", 
+          "xpos": "PRP", 
+          "upos": "PRON", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 16, 
+          "characterOffsetEnd": 19, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": true, 
+            "Alpha": true, 
+            "PronType": "Prs", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }, 
+          "shape": "Xxx"
+        }, 
+        {
+          "id": 6, 
+          "sentence_id": 2, 
+          "text": "lives", 
+          "lemma": "live", 
+          "xpos": "VBZ", 
+          "upos": "VERB", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 20, 
+          "characterOffsetEnd": 25, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": true, 
+            "VerbForm": "Fin", 
+            "Tense": "Pres", 
+            "Number": "Sing", 
+            "Person": "3", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }, 
+          "shape": "xxxx"
+        }, 
+        {
+          "id": 7, 
+          "sentence_id": 2, 
+          "text": "in", 
+          "lemma": "in", 
+          "xpos": "IN", 
+          "upos": "ADP", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 26, 
+          "characterOffsetEnd": 28, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": true, 
+            "Alpha": true, 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": true
+          }, 
+          "shape": "xx"
+        }, 
+        {
+          "id": 8, 
+          "sentence_id": 2, 
+          "text": "Paris", 
+          "lemma": "Paris", 
+          "xpos": "NNP", 
+          "upos": "PROPN", 
+          "entity_iob": "B", 
+          "characterOffsetBegin": 29, 
+          "characterOffsetEnd": 34, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": true, 
+            "NounType": "Prop", 
+            "Number": "Sing", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": false
+          }, 
+          "shape": "Xxxxx", 
+          "entity": "GPE"
+        }, 
+        {
+          "id": 9, 
+          "sentence_id": 2, 
+          "text": ".", 
+          "lemma": ".", 
+          "xpos": ".", 
+          "upos": "PUNCT", 
+          "entity_iob": "O", 
+          "characterOffsetBegin": 34, 
+          "characterOffsetEnd": 35, 
+          "lang": "en", 
+          "features": {
+            "Overt": true, 
+            "Stop": false, 
+            "Alpha": false, 
+            "PunctType": "Peri", 
+            "Foreign": false
+          }, 
+          "misc": {
+            "SpaceAfter": false
+          }
+        }
+      ], 
+      "sentences": {
+        "1": {
+          "id": 1, 
+          "tokenFrom": 1, 
+          "tokenTo": 5, 
+          "tokens": [
+            1, 
+            2, 
+            3, 
+            4
+          ]
+        }, 
+        "2": {
+          "id": 2, 
+          "tokenFrom": 5, 
+          "tokenTo": 10, 
+          "tokens": [
+            5, 
+            6, 
+            7, 
+            8, 
+            9
+          ]
+        }
+      }, 
+      "dependencies": [
+        {
+          "style": "universal", 
+          "trees": [
+            {
+              "lab": "nsubj", 
+              "gov": 2, 
+              "dep": 1
+            }, 
+            {
+              "lab": "root", 
+              "gov": 0, 
+              "dep": 2
+            }, 
+            {
+              "lab": "dobj", 
+              "gov": 2, 
+              "dep": 3
+            }, 
+            {
+              "lab": "punct", 
+              "gov": 2, 
+              "dep": 4
+            }
+          ]
+        }, 
+        {
+          "style": "universal", 
+          "trees": [
+            {
+              "lab": "nsubj", 
+              "gov": 6, 
+              "dep": 5
+            }, 
+            {
+              "lab": "root", 
+              "gov": 0, 
+              "dep": 6
+            }, 
+            {
+              "lab": "prep", 
+              "gov": 6, 
+              "dep": 7
+            }, 
+            {
+              "lab": "pobj", 
+              "gov": 7, 
+              "dep": 8
+            }, 
+            {
+              "lab": "punct", 
+              "gov": 6, 
+              "dep": 9
+            }
+          ]
+        }
+      ], 
+      "coreferences": [
+        {
+          "id": 0, 
+          "representative": {
+            "tokens": [
+              3
+            ], 
+            "head": 3
+          }, 
+          "referents": [
+            {
+              "tokens": [
+                5
+              ], 
+              "head": 5
+            }
+          ]
+        }
+      ], 
+      "constituents": [
+        {
+          "sentenceId": 1, 
+          "labeledBracketing": "(ROOT (S (NP (NNP John)) (VP (VBZ loves) (NP (NNP Mary))) (. .)))"
+        }, 
+        {
+          "sentenceId": 2, 
+          "labeledBracketing": "(ROOT (S (NP (PRP She)) (VP (VBZ lives) (PP (IN in) (NP (NNP Paris)))) (. .)))"
+        }
+      ]
+    }
+  ]
+}
