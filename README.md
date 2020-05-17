@@ -47,6 +47,15 @@ You might want to have a look at the different corpus or linguistic data formats
 
 
 
+## Tools
+
+For testing the NLP API RESTful Microservices you might want to have a look at tools like:
+
+- [Postman]
+- [cURL] (for Windows users: check out Chocolatey to install cURL on your system)
+
+
+
 
 [Damir Cavar]: https://www.linkedin.com/in/damircavar/ "Damir Cavar"
 [Günther Jikeli]: https://isca.indiana.edu/about/faculty/jikeli-gunther.html "Günther Jikeli"
@@ -60,3 +69,5 @@ You might want to have a look at the different corpus or linguistic data formats
 [RESTful Microservices]: https://blog.dreamfactory.com/restful-api-and-microservices-the-differences-and-how-they-work-together/ "RESTful Microservices"
 [JSON-NLP]: https://github.com/SemiringInc/JSON-NLP "JSON-NLP Annotation Standard"
 [NLP-Lab.org]: https://nlp-lab.org/ "Damir Cavar's NLP Lab"
+[Postman]: https://www.postman.com/ "Postman"
+[cURL]: https://curl.haxx.se/ "cURL"
